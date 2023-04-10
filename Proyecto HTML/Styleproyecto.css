@@ -1,0 +1,118 @@
+body{
+  background-image:url(IMG/fondo.jpg);
+}
+.encabezado{
+  height: 95px ;
+  width: 70% ;
+  background-image:url(IMG/fondoencanezado.jpg);
+  font-size: 15px;
+  font-family: Impact;
+  align-content: center;
+  text-align: right;
+  border-radius: 10px;
+}
+.logo{
+  height: 80px;
+  width: 160px;
+  Float: left;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.cuerpo{
+  height: Auto ;
+  width: 70% ;
+  background-color: #D8D7D4;
+  border-radius: 10px;
+}
+.video{
+  float: left;
+  margin-left: 20px;
+  height: 200px;
+  width: 400px;
+}
+h2{
+  font-size: 40px;
+  font-family: Times;
+  Color: #686868;
+}
+h4{
+  font-family: Times;
+  font-size: 19px;
+  text-align: left;
+  margin-left: 5px;
+}
+.Quienes{
+  font-family: Times;
+  text-align: left;
+  margin-left: 5px;
+}
+.imagen{
+  height: 250px;
+  float: right;
+  margin-right: 10px;
+
+}
+h5{
+  font-family: Times;
+  font-size: 19px;
+}
+.Objetivo{
+  margin-top: 3px;
+}
+h6{
+  font-family: Times;
+  font-size: 19px;
+  text-align: left;
+}
+.comp{
+  text-align: left;
+  margin-left: 5px;
+}
+.redes{
+  height: 20px;
+  float: right;
+
+}
+.nombre{
+  text-align: left;
+  margin-left: 20px;
+  font-size: 15px;
+}
+aside{
+  float: left;
+  background-color: #C7CCC4;
+  margin-top: 7%;
+  margin-left: 5px;
+}
+ul{
+  background-color: #CCC4C4;
+  font-size: 15px;
+}
+li.menu{
+  border: 1px;
+  border-style: solid;
+  color: black;
+  display: block;
+}
+.negrita{
+  font-size: 17px;
+  font-style: Times;
+  font-weight: bold;
+}
+.negritaP{
+  font-size: 17px;
+  font-style: Times;
+  font-weight: bold;
+  text-align: right;
+
+}
+.imagenM{
+  height: 175px;
+  float: right;
+  margin-right: 10px;
+}
+li.formulario{
+  list-style-type: decimal;
+  text-align: left;
+  border: 0px;
+}
