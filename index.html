@@ -6,35 +6,20 @@
   <link rel="stylesheet" href="Styleproyecto.css">
 </head>
 <body><center>
+  <script>
+function confirmacion() {
+	var pregunta = confirm("¿Deseas visitar la página principal?")
+	if (pregunta){
+		alert("Te envío allí rápidamente")
+		window.location = "https://erikalonsohdez.github.io/paginweb/";
+	}
+	else{
+		alert("Quizás en otro momento...\n Gracias de todas formas")
+	}
+}
+</script>
+<button type="button" onclick="confirmacion()" >Probar confirm</button>
 <header>
-  <script language="JavaScript">
-    function startTime() {
-    var today = new Date();
-    var hr = today.getHours();
-    var min = today.getMinutes();
-    var sec = today.getSeconds();
-    //Add a zero in front of numbers<10
-    min = checkTime(min);
-    sec = checkTime(sec);
-    document.getElementById("clock").innerHTML = hr + " : " + min + " : " + sec;
-    var time = setTimeout(function(){ startTime() }, 500);
-}
-function checkTime(i) {
-    if (i < 10) {
-        i = "0" + i;
-    }
-    return i;
-}
-    <body onload="mueveReloj()">
-
-Vemos aquí el reloj funcionando...
-
-<form name="form_reloj">
-<input type="text" name="reloj" size="10" style="background-color : Black; color : White; font-family : Verdana, Arial, Helvetica; font-size : 8pt; text-align : center;" onfocus="window.document.form_reloj.reloj.blur()">
-</form>
-
-</body>
-  </script>
   <div class="encabezado">
     <img class="logo" src="IMG/Logo.png">
     <br>
